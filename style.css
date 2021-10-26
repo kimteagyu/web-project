@@ -1,0 +1,335 @@
+
+
+@charset "utf-8";
+/* CSS Document */
+
+<style>
+
+    <h1></h1>
+    <h2></h2>
+    <h3></h3>
+
+
+
+
+    lsg {
+      font-size: 150px;
+    }
+    sg {
+      font-size: 30px;
+    }
+    ssg {
+	font-size: 20px;
+    }
+
+
+    .j {
+      text-indent: 10em;
+    }
+    .k {text-indent: -2em;
+    }
+
+
+    sh {
+	text-shadow: 3px 1px #3399cc;
+	font-size: 150%;
+}
+
+
+
+    pi {color: pink;}
+    gr {color: green;}
+    bl {color: blue;}
+    sk {color: skyblue;}
+    yl {color: yellow;}
+    pu {color: navajowhite;}
+    ds {color: deepskyblue;}
+
+
+  button {
+    margin: 20px;
+  }
+
+
+
+header .logo{position: absolute; right: 35px; top: 75px;}
+header .logo img{width: 100px;}
+
+
+
+{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+body{
+	background-image:
+	font-weight: 300;
+	font-weight: 700;
+	background-image: url("image/cover/background cover.jpg");
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	font-size: large;
+	text-align: left;
+	text-shadow: 0px 0px;
+	font-style: Cursive;
+
+}
+
+
+.container{
+	position: absolute;
+	left: 10%;
+	top:  100%;
+	transform: translate(-50%, -50%);
+	perspective: 150px;
+
+}
+
+.flip-btn{
+	width: 150px;
+	height: 70px;
+	color: white;
+	text-align: center;
+	line-height: 100px;
+	transform-style: preserve-3d;
+	transition: .5s;
+	cursor: pointer;
+
+}
+
+.flip-btn:hover{
+	transform: rotateX(-90deg);
+}
+.front{
+	background-color: hotpink;
+	height: 100px;
+	transform: translateZ(50px);
+}
+
+.back{
+	background-color: deeppink;
+	height: 100px;
+	transform: rotateX(90deg) translateZ(150px);
+}
+
+{
+iframe src= "main.html" style= "width="1280" height="1024"
+border: 3px dashed maron"
+}
+
+
+{
+margin-left: auto;
+ margin-right: auto;
+}
+
+.gridCentered .static,
+.gridCentered .Masonry-Premount .Collection-Item {
+  position: absolute;
+  visibility: hidden;
+}
+.gridCentered .Masonry-Premount,
+.gridCentered .Masonry-Premount .AutoSizer,
+.gridCentered .Masonry-Premount .Collection {
+  width: auto !important;
+}
+
+{
+@media (min-width: 0px) and (max-width: 707px) {
+  .gridCentered {
+    width: 472px;
+  }
+
+  .gridCentered .Masonry-Premount .Collection-Item:nth-child(-n+2),
+  .gridCentered .static:nth-child(-n+2) {
+    position: static !important;
+    visibility: visible !important;
+    float: left;
+    display: block;
+  }
+}
+
+@media (min-width: 708px) and (max-width: 943px) {
+  .gridCentered {
+    width: 708px;
+  }
+  .gridCentered .Masonry-Premount .Collection-Item:nth-child(-n+3),
+  .gridCentered .static:nth-child(-n+3) {
+    position: static !important;
+    visibility: visible !important;
+    float: left;
+    display: block;
+  }
+}
+
+@media (min-width: 944px) and (max-width: 1179px) {
+  .gridCentered {
+    width: 944px;
+  }
+  .gridCentered .Masonry-Premount .Collection-Item:nth-child(-n+4),
+  .gridCentered .static:nth-child(-n+4) {
+    position: static !important;
+    visibility: visible !important;
+    float: left;
+    display: block;
+  }
+}
+
+@media (min-width: 1180px) and (max-width: 1415px) {
+  .gridCentered {
+    width: 1180px;
+  }
+  .gridCentered .Masonry-Premount .Collection-Item:nth-child(-n+5),
+  .gridCentered .static:nth-child(-n+5) {
+    position: static !important;
+    visibility: visible !important;
+    float: left;
+    display: block;
+  }
+}
+
+@media (min-width: 1416px) and (max-width: 1651px) {
+  .gridCentered {
+    width: 1416px;
+  }
+  .gridCentered .Masonry-Premount .Collection-Item:nth-child(-n+6),
+  .gridCentered .static:nth-child(-n+6) {
+    position: static !important;
+    visibility: visible !important;
+    float: left;
+    display: block;
+  }
+}
+
+@media (min-width: 1652px) and (max-width: 1887px) {
+  .gridCentered {
+    width: 1652px;
+  }
+  .gridCentered .Masonry-Premount .Collection-Item:nth-child(-n+7),
+  .gridCentered .static:nth-child(-n+7) {
+    position: static !important;
+    visibility: visible !important;
+    float: left;
+    display: block;
+  }
+}
+
+@media (min-width: 1888px) and (max-width: 2123px) {
+  .gridCentered {
+    width: 1888px;
+  }
+  .gridCentered .Masonry-Premount .Collection-Item:nth-child(-n+8),
+  .gridCentered .static:nth-child(-n+8) {
+    position: static !important;
+    visibility: visible !important;
+    float: left;
+    display: block;
+  }
+}
+
+@media (min-width: 2124px) and (max-width: 2359px) {
+  .gridCentered {
+    width: 2124px;
+  }
+  .gridCentered .Masonry-Premount .Collection-Item:nth-child(-n+9),
+  .gridCentered .static:nth-child(-n+9) {
+    position: static !important;
+    visibility: visible !important;
+    float: left;
+    display: block;
+  }
+}
+
+@media (min-width: 2360px) and (max-width: 2595px) {
+  .gridCentered {
+    width: 2360px;
+  }
+  .gridCentered .Masonry-Premount .Collection-Item:nth-child(-n+10),
+  .gridCentered .static:nth-child(-n+10) {
+    position: static !important;
+    visibility: visible !important;
+    float: left;
+    display: block;
+  }
+}
+
+@media (min-width: 2596px) and (max-width: 2831px) {
+  .gridCentered {
+    width: 2596px;
+  }
+  .gridCentered .Masonry-Premount .Collection-Item:nth-child(-n+11),
+  .gridCentered .static:nth-child(-n+11) {
+    position: static !important;
+    visibility: visible !important;
+    float: left;
+    display: block;
+  }
+}
+
+@media (min-width: 2832px) and (max-width: 3067px) {
+  .gridCentered {
+    width: 2832px;
+  }
+  .gridCentered .Masonry-Premount .Collection-Item:nth-child(-n+12),
+  .gridCentered .static:nth-child(-n+12) {
+    position: static !important;
+    visibility: visible !important;
+    float: left;
+    display: block;
+  }
+}
+
+@media (min-width: 3068px) and (max-width: 3303px) {
+  .gridCentered {
+    width: 3068px;
+  }
+  .gridCentered .Masonry-Premount .Collection-Item:nth-child(-n+13),
+  .gridCentered .static:nth-child(-n+13) {
+    position: static !important;
+    visibility: visible !important;
+    float: left;
+    display: block;
+  }
+}
+
+@media (min-width: 3304px) and (max-width: 3539px) {
+  .gridCentered {
+    width: 3304px;
+  }
+  .gridCentered .Masonry-Premount .Collection-Item:nth-child(-n+14),
+  .gridCentered .static:nth-child(-n+14) {
+    position: static !important;
+    visibility: visible !important;
+    float: left;
+    display: block;
+  }
+}
+
+@media (min-width: 3540px) and (max-width: 3775px) {
+  .gridCentered {
+    width: 3540px;
+  }
+  .gridCentered .Masonry-Premount .Collection-Item:nth-child(-n+15),
+  .gridCentered .static:nth-child(-n+15) {
+    position: static !important;
+    visibility: visible !important;
+    float: left;
+    display: block;
+  }
+}
+
+@media (min-width: 3776px) and (max-width: 4011px) {
+  .gridCentered {
+    width: 3776px;
+  }
+  .gridCentered .Masonry-Premount .Collection-Item:nth-child(-n+16),
+  .gridCentered .static:nth-child(-n+16) {
+    position: static !important;
+    visibility: visible !important;
+    float: left;
+    display: block;
+
+
+</style>
